@@ -4,11 +4,57 @@ body{
 }
 .container{
     background:linear-gradient(to right, grey, pink);
-    width:600px;
-    margin:100px auto;
+    display:flex;
+    flex-direction: column;
+    min-width:400px;
+    max-width:600px;
+    height:400px;
+    margin:150px auto;
     border:1px solid white;
-    height:300px;
-    padding:50px;
-    justify-items: center;
-    border-radius: 10px;
+    border-radius:20px;
+    padding:40px;
+    align-items: center;
+}
+.Form{
+    display:flex;
+    gap:10px;
+}
+.inputCity{
+    font-size:15px;
+    width:300px;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+}
+.submitCity{
+    font-size:15px;
+    width:80px;
+    border:none;
+    border-radius:5px;
+}
+h1{
+    font-size:50px;
+    color:white;
+    margin-top:5px;
+    margin-left:-40px;
+}
+.weather-icon{
+    font-size:100px;
+    color:white;
+    margin-top:-60px;
+    margin-left:25px;
+}
+.weather-degree{
+    font-size:50px;
+    color:white;
+    margin-top:-20px;
+    margin-left:50px;
+}
+.paragraph{
+    text-align: center;
+    padding-top:40px;
+}
+footer{
+    text-align:center;
+    padding-top:60px;
 }
