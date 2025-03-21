@@ -5,8 +5,8 @@ body{
 .container{
     background:linear-gradient(to right, grey, pink);
     justify-items: center;
-    min-width:400px;
-    max-width:600px;
+    min-width:300px;
+    max-width:500px;
     padding: 30px;
     height:700px;
     margin:150px auto;
@@ -19,7 +19,7 @@ body{
 }
 .inputCity{
     font-size:15px;
-    width:400px;
+    width:350px;
     padding:10px;
     border:none;
     border-radius:5px;
@@ -31,6 +31,7 @@ body{
     border-radius:5px;
 }
 .headers{
+    display:grid;
     justify-items: center;
     margin-top: 40px;
 }
